@@ -1,5 +1,7 @@
 project:
   type: website
+  preview: 
+    port: 671
 
 website:
   title: "Блог"
@@ -7,12 +9,14 @@ website:
     right:
       - about.qmd
       - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+        href: https://github.com/AlexRforScience
+      - icon: telegram
+        href: https://t.me/Cyber_marginal_671
 format:
   html:
-    theme: flatly
+    theme:
+       light: [flatly, theme.scss]
+       dark: [darkly, theme.scss]
     css: styles.css
 
 
