@@ -1,5 +1,5 @@
 ---
-title: "Мой блог"
+title: "Анализ данных в социологии"
 lang: ru
 listing:
   contents: posts
@@ -8,6 +8,7 @@ listing:
   categories: true
   sort-ui: false
   filter-ui: false
+date-format: long
 page-layout: full
 title-block-banner: true
 ---
